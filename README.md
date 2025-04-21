@@ -32,7 +32,7 @@ Yes, by default, Django signals are **synchronous**. When a signal is sent (e.g.
 📄 Run `test_question1.py` to see the signal being handled synchronously.
 
 📸 Output:
-for the output look at   ![Question 1 Output](Outputs/question1_output.png)
+   ![Question 1 Output](Outputs/question1_output.png)
 
 
 
@@ -50,7 +50,7 @@ However, it is possible to execute signal handlers in a separate thread by creat
 📄 Run `test_question2.py` to see how the signal can be manually handled in a separate thread using Python's `threading` module.
 
 📸 Output:
-for the output look at   ![Question 2 Output](Outputs/question2_output.png)
+   ![Question 2 Output](Outputs/question2_output.png)
 
 
 ---
@@ -67,7 +67,7 @@ For example, signals like post_save are triggered within the same transaction as
 📄 Run `test_question3.py` to see how a raised exception rolls back both model save and the signal logic.
 
 📸 Output:
-for the output look at   ![Question 3 Output](Outputs/question3_output.png)
+   ![Question 3 Output](Outputs/question3_output.png)
 
 
 ---
@@ -81,6 +81,10 @@ A simple Python class named `Rectangle` that:
 
 **Proof Location**:  
 📄 File: `question4_rectangle_class.py`  
+📸 Output:
+   ![Question 4 Output](Outputs/question4_output.png)
+
+
 📄 Run this file directly using:
 ```bash
 python rectangle_class/question4_rectangle_class.py
