@@ -86,8 +86,5 @@ A simple Python class named `Rectangle` that:
 
 
 📄 Run this file directly using:
-```bash
 python rectangle_class/question4_rectangle_class.py
-
-📸 Output:
-for the output look at   ![Question 1 Output](Outputs/question1_output.png)
+```bash
